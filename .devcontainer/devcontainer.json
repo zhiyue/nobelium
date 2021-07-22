@@ -11,21 +11,54 @@
 	},
 
 	// Set *default* container specific settings.json values on container create.
-	"settings": {},
+	"settings": {
+		"css.lint.unknownAtRules": "ignore"
+	},
 
 
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
 		"dbaeumer.vscode-eslint",
 		"ms-azuretools.vscode-docker",
-		"github.copilot"
+		"github.copilot",
+		"eamodio.gitlens",
+		"tabnine.tabnine-vscode",
+		"esbenp.prettier-vscode",
+		"editorconfig.editorconfig",
+		"formulahendry.auto-close-tag",
+		"steoates.autoimport",
+		"formulahendry.auto-rename-tag",
+		"hookyqr.beautify",
+		"ionutvmi.path-autocomplete",
+		"christian-kohler.path-intellisense",
+		"msjsdiag.vscode-react-native",
+		"dsznajder.es7-react-js-snippets",
+		"xabikos.javascriptsnippets",
+		"equimper.react-native-react-redux",
+		"vscode-icons-team.vscode-icons",
+		"stylelint.vscode-stylelint",
+		"coenraads.bracket-pair-colorizer",
+		"christian-kohler.npm-intellisense",
+		"spywhere.guides",
+		"alefragnani.bookmarks",
+		"ecmel.vscode-html-css",
+		"abusaidm.html-snippets",
+		"pkief.material-icon-theme",
+		"aaron-bond.better-comments",
+		"30-seconds.30-seconds-of-code",
+		"pranaygp.vscode-css-peek",
+		"bradlc.vscode-tailwindcss",
+		"naumovs.color-highlight",
+		"donjayamanne.githistory",
+		"mhutchie.git-graph",
+		"github.vscode-pull-request-github"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "yarn install",
+	"postCreateCommand": "yarn install",
 
 	// Comment out connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
 	"remoteUser": "node"
