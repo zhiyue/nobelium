@@ -13,7 +13,7 @@
     "url": "http://craigary.net"
   },
   "scripts": {
-    "dev": "next dev",
+    "dev": "NODE_OPTIONS='--inspect' next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
@@ -23,6 +23,7 @@
     "feed": "^4.2.2",
     "gitalk": "^1.7.2",
     "next": "^11.0.0",
+    "nextjs": "^0.0.3",
     "notion-client": "^4.6.0",
     "notion-utils": "^4.6.0",
     "preact": "^10.5.13",

@@ -51,7 +51,8 @@
 		"naumovs.color-highlight",
 		"donjayamanne.githistory",
 		"mhutchie.git-graph",
-		"github.vscode-pull-request-github"
+		"github.vscode-pull-request-github",
+		"msjsdiag.debugger-for-chrome"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
